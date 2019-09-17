@@ -1,0 +1,170 @@
+/*formcss*/
+
+#formcss {
+    display: flex;
+    justify-content: center;
+}
+
+#formcss form input,
+#formcss form select {
+    margin: 0px 0px 20px;
+    min-height: 50px !important;
+    line-height: 50px !important;
+}
+
+input::placeholder {
+    font-size: 17px;
+    font-family: 'Anaheim';
+	color:red!important;
+}
+
+#formcss form h1{
+    margin-bottom: 50px;
+	color:Black !important;
+}
+#formcss form button{
+    margin-bottom: 20px;
+    background-color: #006400 !important;
+    font-size: 20px;
+	color:white;
+}
+
+/*formcss*/
+
+/*extra*/
+
+.lotofgap
+{
+	padding:50px 0px;
+	
+}
+
+.lotofgap h1{ padding:50px 0px; }
+
+/*extra*/
+
+/*Tables*/
+table {
+  font-family: arial, sans-serif;
+  font-size:14px;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td, th {
+  border: 1.5px solid black;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(odd) {
+  background-color: #74f6e8;
+}
+tr:nth-child(even) {
+  background-color: #9387f7;
+}
+
+tr:hover {background-color: #f5f5f5;}
+/*End Tables*/
+
+/*footer start*/
+footer{
+	    background-color: #000000 !important;
+	color:white;
+	padding:2% 0%;
+	font-family: 'Anaheim';
+}
+
+
+
+#quick ul li{
+	list-style-type:none;
+	background-color:#013e70 !important;
+	border:0px;
+	font-family: inherit;
+	padding-left: 0px;
+	font-size: 15px;
+	/*color:#999;*/
+	color:white;
+	padding:2px 0px;
+
+
+}
+#quickly ul li{
+	list-style-type:none;
+	    background-color:black!important;
+	border:0px;
+	font-family: inherit;
+	padding-left: 0px;
+	padding:2px 0px;
+
+	font-size: 15px;
+	    /*font-size: 14px;*/
+
+
+}
+#quickly ul li a:hover{
+	color:#3795c1d6;
+	text-decoration:none
+}
+#quickly p{
+	font-size:19px;
+	  color: #c5c3c3;
+
+
+}
+#quickly ul li a{
+	color:white;
+	/*color:#999;*/
+}
+#quickly{
+	width:25%;
+}
+
+
+#quick p{
+	font-size:19px;
+	    color: #c5c3c3;
+}
+#social{
+	width:25%;
+	margin:0px!important;
+}
+#social p{
+	font-size:22px;
+	  color: #c5c3c3;
+}
+#social ul li{
+	list-style-type:none;
+    background-color: black !important;
+	border:0px;
+	display:inline-block;
+	padding: 2%;
+	font-family: inherit;
+}
+#social ul li a span{
+
+	color:white;
+
+}
+#social .fb:hover{
+
+	color:darkblue;
+}
+#social .tweet:hover{
+
+	color:skyblue;
+}
+#social .link:hover{
+
+	color:#a51800;
+}
+#social .youtube:hover{
+
+	color:#ff5032;
+}
+#social img{
+	box-shadow:inset 0 0 0 500px rgba(163, 154, 175, 0.54);
+
+}
+
+/*footer end*/
