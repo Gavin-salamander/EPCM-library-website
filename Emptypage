@@ -1,0 +1,14 @@
+
+<?php
+
+include('Header.php');
+ ?>
+
+<SECTION>
+
+</SECTION>
+
+<?php
+    include("Footer.php");
+?>
+<?php 
