@@ -1,0 +1,331 @@
+/* navbar not sticky start*/
+.moon
+{
+    /*height: 30px;*/
+    height:auto;
+    /*background-color:#dba8a4;*/
+    background-color:#3f4144;
+}
+.sena label,.sena p
+{
+    display:inline;
+}
+.contact-top
+{
+       padding-top: 3px !important;
+    font-size: 17px;
+}
+/* #social-top
+{
+    margin-top: 0.5%;
+} */
+#social-top li
+{
+    list-style:none;
+    display:inline-flex;
+    float:right;
+    padding:0% 1%;
+    color:white;
+  /*  font-size: 16px;*/
+    /*font-family:monospace;*/
+     font-family: 'Anaheim';
+     
+}
+#social-top li a
+{
+        color: #ffffff;
+         padding-top: 1.5px;
+
+}
+/* navbar not sticky end*/
+/*navbar sticky start*/
+#navbar
+{
+    height: 60px;
+    /*height: 50px;*/
+        /*background-color: #2c3848 !important;*/
+        background-color: #89b8fa !important;
+    border-color: 0px solid #ffffff !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size:20px;
+}
+.navbar
+{
+    margin-bottom:0px;
+}
+.nav > li > a
+{
+    padding: 16px 7px;
+	
+}
+/*#menu-all>li{
+        padding: 2px;
+}*/
+/*#menu-all{
+
+    margin-right: 0px;
+    margin-top: 1%;
+}*/
+.navbar-fixed-top
+{
+        /*
+        background-color: #B22222;
+    border-color:#B22222;*/
+     background-color:white;
+    border-color:#ffffff;
+}
+.navbar-fixed-top .navbar-nav > li > a
+{
+    /*color:#fff;*/
+    color: #94a7b9;
+    font-size: 18px;
+    padding: 0% 2%;
+    /*font-family:monospace;*/
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus
+{
+   /* color: #fff;
+       border: 1px solid white;*/
+        color: white;
+  
+}
+.navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > .open > a:hover, .navbar-fixed-top .navbar-nav > .open > a:focus
+{
+    color: #bf2626;
+    background-color: #ffffff;
+}
+.navbar-nav
+{
+    /*float: right;*/
+    /* margin-left: 17%; */
+    display: -webkit-inline-box;
+    margin-top: 1%;
+    /*margin-left:2%;*/
+    margin-left:0%;
+    /*margin-right: 16%;*/
+    /*margin-right: 15%;*/
+    letter-spacing: 2px;
+    font-family: 'Anaheim';
+
+}
+
+/*navbar end*/
+
+/*after*/
+#menu-all > li > a
+{
+        padding: 0px 7px;
+}
+/*dropdown added start*/
+.navbar-nav ul li
+{
+    /*list-style:disc !important;*/
+}
+#menu-all{
+ /*  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;*/
+}
+
+#menu-all li {
+  /*float: left;*/
+  padding-left:1%;
+  margin-left:2%;
+
+}
+
+#menu-all li a{
+  /*display: inline-block;*/
+  color: Black;
+  font-weight:bold;
+  /*text-align: center;*/
+  /*padding: 14px 16px;*/
+      /*padding: 8% 0%;*/
+  font-size: 11px;
+  text-decoration: none;
+/*  border-bottom: 1px solid black;*/
+}
+#menu-all li a:focus
+{
+      outline: 0px auto -webkit-focus-ring-color !important;
+    outline-offset: 0px !important;
+}
+ #dropbtn {
+  /*display: inline-block;*/
+  color: white;
+  text-align: left;
+  /*padding: 14px 16px;*/
+      /*padding: 8% 0%;*/
+    font-size: 15px !important;
+  text-decoration: none;
+}
+
+#menu-all li a:hover, .dropdown:hover .dropbtn {
+  /*background-color: transparent;*/
+      /*background-color: #695d5d0d;*/
+    color: white;
+}
+
+#menu-all li .dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color:#bdb3ca;*/
+  background-color:#000080;
+  min-width: 160px;
+  /*min-width:auto;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+padding: 14px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #0000ff}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-left: 2%;
+      /*display: contents;*/
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color:#000080;
+  top:0px;
+  left:160px;
+  min-width: 160px;
+  /*min-width:auto;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 05px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 .dota a:hover {background-color: #f1f1f1}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+  padding-left: 2%;
+      /*display: contents;*/
+}
+
+#menu-all li .dota {
+  position:relative !important;
+}
+
+.dropdown-contenta {
+  display: none;
+  position: absolute;
+  /*background-color:#bdb3ca;*/
+  background-color:#000080;
+  min-width:160px; 
+  /*right:-1000px;*/
+  left:-50px;
+  width:700%;
+  /*min-width:auto;*/
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 	
+   z-index: 1;
+  overflow:auto;
+}
+
+.dropdown-contenta a {
+  color: black;
+  padding: 05px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-contenta a:hover {background-color: #0000ff !important}
+
+.dropdown:hover .dropdown-contenta {
+  display: block;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+      /*display: contents;*/
+}
+.dropdown-contenta h4 a {
+    color: orange!important
+	
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px;
+  background-color: inherit;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #f1f1f1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#social-top .fb:hover{
+
+	color:darkblue;
+}
+#social-top .tweet:hover{
+
+	color:skyblue;
+}
+#social-top .link:hover{
+
+	color:#e52200;
+}
+#social-top .youtube:hover{
+
+	color:#ff5032;
+}
+
+
+/*dropdown added end*/
+.navbar-brand
+{
+    font-family: 'Anaheim';
+    font-size: 41px;
+    color: white !important;
+    /*padding: 19px 23px;*/
+    padding: 5px 23px;
+}
+
+/* Box Model */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
